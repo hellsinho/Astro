@@ -48,7 +48,7 @@ export default function Navbar() {
             <Star className="text-purple-400 fill-current group-hover:text-yellow-300 transition-colors" size={24} />
           </motion.div>
           <span className="text-xl font-playfair bg-gradient-to-r from-purple-300 to-blue-300 bg-clip-text text-transparent">
-            AstroSaaS
+            AstroChat
           </span>
         </a>
 
@@ -78,13 +78,15 @@ export default function Navbar() {
           >
             Login
           </motion.button>
-          <motion.button
+          <motion.a
+          href="/register"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            
             className="px-6 py-2 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-full shadow-lg hover:shadow-purple-500/30"
           >
             Cadastre-se
-          </motion.button>
+          </motion.a>
         </div>
 
         {/* Mobile Menu Button */}

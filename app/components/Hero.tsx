@@ -63,7 +63,7 @@ export default function Hero() {
           className="flex items-center gap-2 mb-6"
         >
           <Star className="text-yellow-400 fill-current animate-pulse" size={28} />
-          <span className="text-lg text-purple-300 font-light">ASTROSAAS</span>
+          <span className="text-lg text-purple-300 font-light">ASTROCHAT</span>
         </motion.div>
 
         <motion.h1
